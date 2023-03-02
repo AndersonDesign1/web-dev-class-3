@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 80px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  color: white;
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+}
+.hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(./Image/pexels-ketut-subiyanto-4560150.jpg);
+  height: 100vh;
+  height: 100vh;
+  max-width: 100%;
+}
+.text{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 80px;
+color: white;
+text-align: center;
+padding-top: 20%;
+}
+.p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: white;
+text-align: center;
+padding-top: 20px;
+}
+@media screen and (min-width: 400px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li {
+    display: flex;
+    text-align: center;
+  }
